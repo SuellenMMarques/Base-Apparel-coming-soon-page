@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+    <script src="./script.js" defer></script>
+    <title>Base Apparel</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./assets/logo.svg" alt="Logo da Base Apparel" class="logo">
+        </header>
+
+        <div class="hero-image-wrapper">
+            <picture>
+                <source media="(min-width:1024px)" srcset="./assets/hero-desktop.jpg">
+                <img src="./assets/hero-mobile.jpg"
+                    alt="Imagem de uma mulher com a mão no rosto usando uma blusa laranja" class="image-hero">
+            </picture>
+        </div>
+
+        <main>
+            <h1>WE'RE</h1>
+            <h2>COMING SOON</h2>
+            <p>
+                Hello fellow shoppers! We're currently building our new fashion store.
+                Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+            <form class="form-container" novalidate>
+                <label for="email-cliente" class="sr-only">Digite seu email</label>
+                <input type="email" placeholder="Email Address" class="input-email" id="email-cliente">
+                <button class="botao">
+                    <img src="./assets/icon-arrow.svg" alt="Ícone de seta para enviar o email" class="arrow">
+                </button>
+            </form>
+            <span class="mensagem-erro">Please provide a valid email</span>
+        </main>
+
+        <footer>
+            <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://github.com/SuellenMMarques" target="_blank">Suellen Marques</a>.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
