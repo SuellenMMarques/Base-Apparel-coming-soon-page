@@ -1,9 +1,9 @@
-const botao = document.querySelector(".form-conteiner");
+const form = document.querySelector(".form-conteiner");
 const input = document.querySelector(".input-email");
 const erro = document.querySelector(".mensagem-erro");
 
 
-botao.addEventListener("submit", (event) => {
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const valor = input.value.trim();
